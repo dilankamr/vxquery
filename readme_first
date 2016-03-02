@@ -1,0 +1,26 @@
+>>'mvn install' (in terminal)
+
+>>copy the 'VXQueryWebUi.war'(vxquery/vxquery-webui/target/VXQueryWebUi.war) file to webapp folder in your tomcat.
+
+>>start tomcat by 'sh catalina.sh'
+
+>>go to 'http://127.0.0.1:8080/VXQueryWebUi' and click run button.
+
+>>see tomcat log in terminal
+
+
+
+the error prints like
+
+****************************************************
+org.apache.hyracks.api.exceptions.HyracksDataException: org.apache.hyracks.api.exceptions.HyracksDataException: org.apache.hyracks.api.exceptions.HyracksDataException: org.apache.hyracks.algebricks.common.exceptions.AlgebricksException: org.apache.vxquery.exceptions.SystemException: SYSE0001: 
+****************************************************
+
+
+>>now go to the 'vxquery/vxquery-webui/src/main/java/org/apache/vxquery/webui/model' and run VXQuery.java main() method. that gives you expected result..
+
+Thank you very much
+Regards,
+Dilanka Rathnayake.
+
+
